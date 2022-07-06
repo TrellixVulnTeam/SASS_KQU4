@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Classy Memories- Renta de autos antiguos</title>
+	<link rel="shortcut icon" href="imagen/favicon/logo.png" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+    <!--mi css vinculado-->
+  <link rel="stylesheet" href="css/style.css">
+	  
+
+</head>
+<body>
+
+  <!-- nav bootstrap -->
+
+	<div class="grid template-areas">
+    <nav class="navbar navbar-expand-lg navbar-light bg-rosa" id="nav" > 
+      <div class="container-fluid">
+        <a href="index.html">
+          <img 
+            src="imagen/favicon/logo.png"
+            alt="logo de classy memories"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="views/Nosotros.html">Nosotros</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="views/galeria.html">Galeria</a></li>
+                <li><a class="dropdown-item" href="views/servicios.html">Servicios</a></li>
+                                <li><a class="dropdown-item" href="views/contactos.html">Contactos</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+      
+      <!-- termina nav bootstrap -->
+			
+		<main id="centro" class="bg-main ">
+
+			<h2 class="nav-h1">  Haz de tu dia especial, <br />
+              Inolvidable!  </h2>
+
+         <!-- flexbox -->
+        <div class="container flex-direction " >
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, vero praesentium optio quia a aperiam provident, ullam recusandae et earum veniam explicabo placeat molestiae adipisci voluptates vitae obcaecati pariatur ipsum.
+              Accusamus, laborum, ab laboriosam iste consequuntur hic maiores quibusdam eius asperiores optio! Iure ea voluptatum labore quae ab quas, saepe assumenda sapiente tempore at corporis! A dolorum, expedita non illum!
+            </p>
+         
+            <img
+              src="imagen/foto/headercontacto.png"
+              alt="imagen contactos header">
+          </div></div>
+        
+     <div class="container flex-direction">
+
+      <div class="box bg-grey1 formato ">
+          <h2 > Formulario</h2>
+          <br />
+          <!-- inicia form -->
+          <form class="fieldset" action="envio.php" id="contactos">
+           <fieldset>
+              <legend>Informacion de contacto</legend>
+              <br />
+              <label for="name">Nombre</label>
+              <input type="text" id="name" placeholder="Nombre" />
+              <br />
+              <br />
+              <label for="email">Correo</label>
+              <input type="email" id="email" placeholder="Ejemplo@hotmail" />
+           </fieldset>
+            <br />
+             <fieldset>
+              <legend>Tipo de evento</legend>
+
+              <select name="tipo de eventos" id="">
+                <option value="Boda">Boda</option>
+                <option value="XV">XV años</option>
+                <option value="Ocasiones Especiales">
+                  Ocasiones Especiales
+                </option>
+              </select>
+          </fieldset>
+           <br>
+          
+             ¿Le interesa recibir el Newsletter?</legend>
+              <label for="si">Si</label>
+              <input type="radio" id="si" name="si">
+          <br />
+         
+
+            <fieldset>
+              <legend>Informacion Adicional</legend>
+              <label for="Comentarios">Comentarios</label>
+              <br />
+              <textarea name="comentarios" id="comentarios" cols="30" rows="15"></textarea>
+              <input type="reset" value="Borrar" />
+              <input type="submit" value="Enviar" />
+            </fieldset>
+          </form>
+
+          <!-- termina form -->
+</div> </div>
+
+
+
+		</main>
+
+
+		<aside id="aside" class="bg-main">
+		<div class="container1">
+
+<div class=" boxy">	<img src="imagen/foto/indexfooter3.png" alt="imagen aside"></div>
+<div class="boxy"> <img src="imagen/foto/indexfooter3.png" alt="imagen aside"></div>
+<div class="boxy"><img src="imagen/foto/indexfooter3.png" alt="imagen aside"></div>
+<section>
+          <h2 class="nav-h1">Nosotros</h2>
+          <div class="container flex-direction">
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                corrupti officiis ratione, quidem qui praesentium aut quibusdam,
+                corporis illum commodi temporibus consequuntur. Vel maxime
+                optio, perferendis, culpa aperiam placeat non?Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Quas necessitatibus, at
+                delectus tenetur earum ad, nemo officia molestiae dicta ipsum
+                deserunt sunt quod accusamus error optio atque, laborum et amet!
+              </p>
+            </div>
+            <div class="box bg-brown">
+              <img src="imagen/foto/asidenosotros.png" alt="imagen nosotros">
+            </div>
+          </div>
+
+</div>
+
+
+		</aside>
+
+		<footer id="pie" class="bg-rosa">
+      <H3> Siguenos en nuestras redes sociales</H3>
+
+
+  <a href="http://www.facebook.com"target="_blank">
+  <img src="imagen/favicon/facebook.png" alt=facebook>
+</a>
+<a href="https://twitter.com"target="_blank">
+  <img src="imagen/favicon/twitter.png" alt=twitter>
+</a>
+
+      </footer>
+
+  </div>
+
+
+     
+    
+
+ </div> 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

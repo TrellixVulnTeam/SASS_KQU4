@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Classy Memories- Renta de autos antiguos</title>
+	<link rel="shortcut icon" href="imagen/favicon/logo.png" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+    <!--mi css vinculado-->
+  <link rel="stylesheet" href="../css/style.css">
+	  
+
+</head>
+<body>
+
+  <!-- nav bootstrap -->
+
+	<div class="grid template-areas">
+    <nav class="navbar navbar-expand-lg navbar-light bg-rosa" id="nav" > 
+      <div class="container-fluid">
+        <a href="../index.html">
+          <img 
+            src="../imagen/favicon/logo.png"
+            alt="logo de classy memories"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="views/Nosotros.html">Nosotros</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="views/galeria.html">Galeria</a></li>
+                <li><a class="dropdown-item" href="views/servicios.html">Servicios</a></li>
+                                <li><a class="dropdown-item" href="views/contactos.html">Contactos</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+      
+      <!-- termina nav bootstrap -->
+
+	<header id="centro" class="bg-main ">
+		<h1>¿Tienes un evento? Contactanos </h1>
+<img src="../imagen/foto/headercontacto.png" alt="imagen contactos header">
+
+
+
+<section class="container">
+	
+<!-- inicia form -->	
+	<form action="envio.php"id="contactos">
+	<fieldset>
+		<legend>Informacion de contacto</legend>
+
+		<label for="name">Nombre</label>
+		<input type="text" id="name" placeholder="Nombre">
+		<br>
+		<br>
+        <label for="email">Correo</label>
+        <input type="email" id="email" placeholder="Ejemplo@hotmail">
+       </fieldset>
+       <fieldset>
+       	<legend>Tipo de evento </legend>
+  
+<select name="tipo de eventos" id="">
+<option value="Boda">Boda</option>
+<option value="XV">XV años</option>
+<option value="Ocasiones Especiales">Ocasiones Especiales</option>
+</select>
+</fieldset>
+       <fieldset>
+<legend>¿Le interesa recibir el Newsletter?</legend>
+<label for="si">Si</label>
+<input type="radio" id="si"name="si">
+
+       	 	
+
+       	 </fieldset>
+       	 <br>
+       	 <fieldset>
+       	 	<legend>Informacion Adicional</legend>
+       	 <label for="Comentarios">Comentarios:</label>
+       	 <br>
+       	 <textarea name="" id="comentarios" cols="30"rows="15"></textarea>
+       	 <input type="reset" value="Borrar">
+       	 <input type="submit"value="Enviar">
+   </form>
+
+</fieldset>
+<!-- termina form -->	
+
+</section>
+</header>
+<hr>
+<footer id="pie" class="bg-grey">
+	
+<H3 class="nav-h2"> Siguenos en nuestras redes sociales</H3>
+
+
+	<a href="http://www.facebook.com"target="_blank">
+	<img src="../imagen/favicon/facebook.png" alt=facebook>
+</a>
+<a href="https://twitter.com"target="_blank">
+	<img src="../imagen/favicon/twitter.png" alt=twitter>
+</a>
+
+</footer>
+</body>
+</html>
